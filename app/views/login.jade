@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Clementine.js - The elegant and lightweight full stack JavaScript boilerplate.
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,500', rel='stylesheet', type='text/css')
+    link(href='/public/css/main.css', rel='stylesheet', type='text/css')
+  body
+    .container
+      .login
+        img(src='/public/img/clementine_150.png')
+        br
+        p.clementine-text Clementine.js
+        a(href='/auth/github/callback')
+          #login-btn.btn
+            img(src='/public/img/github_32px.png', alt='github logo')
+            p LOGIN WITH GITHUB
